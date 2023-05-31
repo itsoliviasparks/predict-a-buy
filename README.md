@@ -1,5 +1,5 @@
 # PREDICT-A-BUY 🍋
-<a href="https://tcl-61-smart-shopping-list.web.app">Live Site</a>
+<a href="https://tcl-61-smart-shopping-list.web.app">🔗 Live Site</a>
 
 ## About
 Introducing PREDICT-A-BUY: The Ultimate Shopping Companion!
@@ -36,6 +36,24 @@ React, Firebase, Sass, & Figma
 
 ### Demo
 https://github.com/itsoliviasparks/predict-a-buy/assets/97206055/ef02f37b-0237-465f-ad33-7e9fc79d5406
+
+
+## User Interface
+The UI design started with a brainstorming session with the entire team. Collectively, we decided on a theme of retro-futurism, blending nostalgic elements with futuristic design concepts to create a captivating & playful user experience. Lizzy, one of our team members, came up with the app's name, which perfectly encapsulated the apps purpose and pur playful vision for the design.
+
+From there the team nominated me to spearhead the UI development for our app, which I was thrilled to do! It was an exciting opportunity for me to showcase my skills and dive into Figma!
+
+Figma was a new tool for me, however, I quickly became familiarized with it and created the app's wireframe & SVG elements. [You can check the wireframe out here.](https://www.figma.com/file/UZ1JSmo6vNCzaKzvEtRbhN/PREDICT-A-BUY?type=design&node-id=0%3A1&t=oGVCIACn9X96mNqm-1)
+
+Originally, we had planned to use Material UI for our design framework, but after careful consideration, we decided to switch to Sass to have greater control over the visuals. This decision allowed us to customize the styles and tailor them to our retro-futurist vision.
+
+Given my experience with Sass, I took the lead in sharing my knowledge with the team, helping & supporting my teammates who were new to Sass, ensuring that everyone understood how to utilize its features effectively.
+
+To ensure visual consistency throughout the app, I created core partials for essential components such as color variables, typography, a wrapper, and buttons. Each team member was responsible for developing a different view, and these core partials helped maintain a cohesive design language.
+
+It was also important for us to implement both a dark and light mode into the app's UI design. By incorporating this feature, the app seamlessly toggles between the two modes based on the user's computer settings via the `color-scheme meta tag`, ensuring optimal readability and visual comfort for every user.
+
+Overall, spearheading the UI development was a rewarding experience. I had a great time stretching my design muscles, collaborating with the team, & creating a visually cohesive user interface that aligned with our app's concept and provided a playful user experience.
 
 
 ## Problems Solved
@@ -113,7 +131,6 @@ Overall we feel this provides an excellent user experience:
 - Therefore, when the user returns to the app within 24 hours, the item will be crossed out, and the checkbox will be disabled
 - The app's "smartness" is never compromised
 - All items are automatically marked as un-purchased after 24 hours from their last purchase date
-
 
 ## Lessons Learned
 One of the most significant lessons I learned was the importance of clear communication both in & out of the text editor.
