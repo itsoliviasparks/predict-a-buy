@@ -41,7 +41,7 @@ export function AddItem({ data, listToken }) {
 			if (checkIfItemExists(normalizedItemName)) {
 				setSubmitStatus({
 					type: 'error',
-					value: 'You already added this item to your list.',
+					value: `"${itemName}" is already on your list`,
 				});
 
 				// Checks if the user is trying to submit an empty item.
@@ -55,13 +55,13 @@ export function AddItem({ data, listToken }) {
 
 				setSubmitStatus({
 					type: 'success',
-					value: 'Item was successfully saved to the database',
+					value: `"${itemName}" is now on your list`,
 				});
 			}
 		} catch (err) {
 			setSubmitStatus({
 				type: 'error',
-				value: 'Item is NOT saved in the database',
+				value: `Unfortunately, "${itemName}" could not be added to your list at this time`,
 			});
 		}
 
