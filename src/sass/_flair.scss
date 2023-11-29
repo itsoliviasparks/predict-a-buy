@@ -1,6 +1,5 @@
 @use '_variables.scss' as *;
 
-// ::before & ::after flair
 button.flair {
 	position: relative;
 
@@ -18,24 +17,6 @@ button.flair {
 		content: url('/img/after.svg');
 	}
 }
-
-// .add-item-container {
-// 	position: relative;
-
-// 	.input::after {
-// 		position: absolute;
-// 		top: 13%;
-// 		right: 4%;
-// 		content: url('/img/after.svg');
-// 	}
-
-// 	button::before {
-// 		position: absolute;
-// 		bottom: -8%;
-// 		left: 36%;
-// 		content: url('/img/before.svg');
-// 	}
-// }
 
 div.before {
 	position: relative;
