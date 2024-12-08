@@ -37,7 +37,7 @@ export function Layout() {
 						<a href="https://github.com/itsoliviasparks">Olivia Sparks</a>,{' '}
 						<a href="https://github.com/01001101CK">Yufa Li</a> & for{' '}
 						<a href="https://the-collab-lab.codes">The Collab Lab</a>.{' '}
-						<a href="https://github.com/the-collab-lab/tcl-61-smart-shopping-list">
+						<a href="https://github.com/itsoliviasparks/predict-a-buy">
 							Browse the REPO
 						</a>
 						.
